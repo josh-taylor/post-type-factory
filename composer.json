@@ -1,0 +1,29 @@
+{
+  "name": "josh-taylor/post-type-factory",
+  "description": "A utility to make registering a custom post type in WordPress easier.",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Josh Taylor",
+      "email": "joshotaylor@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "^5.4|^7.0",
+    "illuminate/support": "^5.4"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^6.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "JoshTaylor\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "files": [
+      "tests/functions/register_post_type.php"
+    ]
+  }
+}
