@@ -1,4 +1,4 @@
-# Post Type Factory
+# Post Type Factory [![Build Status](https://travis-ci.org/josh-taylor/post-type-factory.svg?branch=master)](https://travis-ci.org/josh-taylor/post-type-factory)
 
 Born out of frustration from registering post types in WordPress. Easily register new post types without having to
 specify every option.
