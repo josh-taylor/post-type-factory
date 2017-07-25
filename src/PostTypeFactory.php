@@ -60,7 +60,7 @@ class PostTypeFactory
             'new_item' => "New {$singular}",
             'edit_item' => "Edit {$singular}",
             'view_item' => "View {$singular}",
-            'all_items' => "All {$singular}",
+            'all_items' => "All {$plural}",
             'search_items' => "Search {$plural}",
             'not_found' => "No {$plural} found.",
             'not_found_in_trash' => "No {$plural} found in Trash.",
